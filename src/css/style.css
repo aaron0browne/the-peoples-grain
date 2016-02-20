@@ -1,0 +1,75 @@
+@font-face {
+    font-family: "weston";
+    src: url("../fonts/weston.otf") format("opentype");
+    font-weight: normal; font-style: normal;
+}
+
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.home.background-enter {
+    opacity: 0 !important;
+}
+
+.home.background-enter.background-enter-active {
+    opacity: 1 !important;
+    transition: all 2s ease;
+}
+
+.home.background-leave {
+    opacity: 1 !important;
+}
+
+.home.background-leave.background-leave-active {
+    opacity: 0 !important;
+    transition: all 2s ease;
+}
+
+.nothome.title-enter {
+    left: calc(50% - 300px) !important;
+    top: calc(50% - 30px) !important;
+    width: 600px !important;
+}
+
+.nothome.title-enter.title-enter-active {
+    top: .5em !important;
+    left: .5em !important;
+    width: 200px !important;
+    transition: all 2s ease;
+}
+
+.home.title-leave {
+    opacity: 0 !important;
+    z-index: -1 !important;
+}
+
+.home.title-leave.title-leave-active {
+    opacity: 0 !important;
+    z-index: -3 !important;
+    transition: z-index 100ms;
+}
+
+.home.title-enter {
+    top: .5em !important;
+    left: .5em !important;
+    width: 200px !important;
+}
+
+.home.title-enter.title-enter-active {
+    left: calc(50% - 300px) !important;
+    top: calc(50% - 30px) !important;
+    width: 600px !important;
+    transition: all 2s ease;
+}
+
+.nothome.title-leave {
+    opacity: 0 !important;
+    z-index: -1 !important;
+}
+
+.nothome.title-leave.background-title-active {
+    opacity: 0 !important;
+    z-index: -3 !important;
+    transition: z-index 100ms ease;
+}
