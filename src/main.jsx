@@ -396,14 +396,14 @@ function Header(props) {
   var headerStyles = {
     position: 'fixed',
     width: '100%',
-    height: '35px',
+    height: '65px',
     backgroundColor: '#160b00',
     zIndex: '9',
   }
 
   var navBarStyles = {
     position: 'fixed',
-    top: '.5em',
+    top: '1.5em',
     right: '0',
     color: 'white',
     zIndex: '10',
@@ -418,14 +418,14 @@ function Header(props) {
     textDecoration: 'none',
     fontFamily: 'weston',
   };
-  
+
   var toGallery;
   var toAbout;
   var navBar;
 
   if (props.kink) {
-      toGallery = '/kinkgallery';
-      toAbout = '/kinkabout';
+      toGallery = '/gallery';
+      toAbout = '/about';
       navBar = <div style={navBarStyles}>
         <span style={navItemStyles}>
           <Link to='/' style={linkStyles}>The People's Grain</Link>
@@ -438,8 +438,8 @@ function Header(props) {
         </span>
       </div>;
   } else {
-      toGallery = '/gallery';
-      toAbout = '/about';
+      toGallery = '/normgallery';
+      toAbout = '/normabout';
       navBar = <div style={navBarStyles}>
         <span style={navItemStyles}>
           <Link to={toGallery} style={linkStyles}>Gallery</Link>
@@ -452,7 +452,7 @@ function Header(props) {
 
   return (
     <div style={headerStyles}>
-      {navBar} 
+      {navBar}
     </div>
   )
 }
@@ -461,7 +461,7 @@ Header.defaultProps = {kink: false}
 function Title(props) {
   var key = props.home ? 'home': 'nothome';
   var className = key;
-  var linkTo = props.home ? props.kink ? '/kinkgallery' : '/gallery' : props.kink ? '/kink' : '/';
+  var linkTo = props.home ? props.kink ? '/gallery' : '/normgallery' : props.kink ? '/' : '/home';
 
   var titleStyles;
   if (props.home) {
@@ -507,14 +507,14 @@ Title.defaultProps = {home: true};
 render((
   <Router history={createBrowserHistory()}>
     <Route path='/' component={App}>
-      <IndexRoute component={Home}/>
-      <Route path='gallery' component={Gallery}/>
-      <Route path='about' component={About}/>
-      <Route path='boards' component={Boards}/>
-      <Route path='kink' component={KinkHome}/>
-      <Route path='kinkabout' component={KinkAbout}/>
-      <Route path='kinkgallery' component={KinkGallery}/>
+      <IndexRoute component={KinkHome}/>
+      <Route path='gallery' component={KinkGallery}/>
+      <Route path='about' component={KinkAbout}/>
       <Route path='paddles' component={Paddles}/>
+      <Route path='home' component={Home}/>
+      <Route path='normabout' component={About}/>
+      <Route path='normgallery' component={Gallery}/>
+      <Route path='boards' component={Boards}/>
     </Route>
   </Router>
 ), document.getElementById('layout'));
