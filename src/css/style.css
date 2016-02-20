@@ -1,11 +1,12 @@
 @font-face {
     font-family: "weston";
     src: url("../fonts/weston.otf") format("opentype");
-    font-weight: normal; font-style: normal;
+    font-weight: normal;
+    font-style: normal;
 }
 
 * {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Special Elite', serif;
 }
 
 .home.background-enter {
@@ -28,11 +29,14 @@
 
 .nothome.title-enter {
     left: calc(50% - 300px) !important;
-    top: calc(50% - 30px) !important;
     width: 600px !important;
+    top: 50% !important;
+    transform: translateY(-50%) !important;
+    position: fixed !important;
 }
 
 .nothome.title-enter.title-enter-active {
+    position: fixed !important;
     top: .5em !important;
     left: .5em !important;
     width: 200px !important;
@@ -57,8 +61,10 @@
 }
 
 .home.title-enter.title-enter-active {
+    top: 50% !important;
+    transform: translateY(-50%) !important;
+    position: fixed !important;
     left: calc(50% - 300px) !important;
-    top: calc(50% - 30px) !important;
     width: 600px !important;
     transition: all 2s ease;
 }
