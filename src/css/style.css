@@ -29,17 +29,18 @@
 
 .nothome.title-enter {
     left: calc(50% - 300px) !important;
-    width: 600px !important;
+    width: 50% !important;
     top: 50% !important;
     transform: translateY(-50%) !important;
     position: fixed !important;
 }
 
 .nothome.title-enter.title-enter-active {
+    transform: translateY(0%) !important;
     position: fixed !important;
     top: .5em !important;
     left: .5em !important;
-    width: 200px !important;
+    width: 15% !important;
     transition: all 2s ease;
 }
 
@@ -55,9 +56,11 @@
 }
 
 .home.title-enter {
+    transform: translateY(0%) !important;
+    position: fixed !important;
     top: .5em !important;
     left: .5em !important;
-    width: 200px !important;
+    width: 15% !important;
 }
 
 .home.title-enter.title-enter-active {
@@ -65,7 +68,7 @@
     transform: translateY(-50%) !important;
     position: fixed !important;
     left: calc(50% - 300px) !important;
-    width: 600px !important;
+    width: 50% !important;
     transition: all 2s ease;
 }
 
