@@ -215,14 +215,14 @@ function Paddles(props) {
       <div style={txtDivStyles}>
         <div style={txtStyles}>
           <p style={pStyles}>Greetings kinksters, spankos, sadomasocists of all stripes. No more shall you be forced to endure plain, unadorned and cookie cutter implements for striking your loved or being struck by them. The People’s Grain offers a line of beautifully produced fully customizable spanking implements. Below please find a selection of previously completed products, then <a href="mailto:thekinkstersgrain@gmail.com?Subject=Paddles" target="_top">contact us</a> about how we can make you the spanking tool of your dreams!</p>
-          <img src={require('file!img/paddles_beat02_med.jpg')} style={txtImgStyles}/><h2 style={hStyles}>The Beat: </h2><i style={iStyles}>Thin, strong, and stingy!</i>
-          <p style={pStyles}>These paddles range from 11"-16" (with larger demands gladly met), and they bring a sharp, thin line of precious pain to your loved one. Holes can be added to increase aerodynamics, leaving precise, circular evidence of your transgression. If you have a favorite wood, a favorite color, or anything else special in mind, <a href="mailto:thekinkstersgrain@gmail.com?Subject=Paddles" target="_top">contact us</a> today to get your Beat started!</p>
-          <img src={require('file!img/paddles_cleaver01_med.jpg')} style={txtImgStyles}/><h2 style={hStyles}>The Cleaver: </h2><i style={iStyles}>A wider surface area for a thud that still stings.</i>
-          <p style={pStyles}>Looking to leave a larger mark? Listening for a nice, flat thud as your paddle connects? Try your hand at one of our specialized cleaver models. Each cleaver comes with a leather wrapped handle with a leash to ensure that no matter how high it gets turned up, you'll never lose a grip on your tool. The cleaver can be specialized by size, wood species, and hand wrap to meet your specifications. <a href="mailto:thekinkstersgrain@gmail.com?Subject=Paddles" target="_top">contact us</a> today to begin work on your latest impact toy.</p>
-          <img src={require('file!img/paddles_spin01_med.jpg')} style={txtImgStyles}/><h2 style={hStyles}>The Spin: </h2><i style={iStyles}>Sharp looks, thudding feel.</i>
-          <p style={pStyles}>Like a spinning top sent through an industrial press, The Spin provides sharper lines and angles than other models. Like The Cleaver, The Spin can hide in plain site. In-Laws coming over? Social services planning a drop-in? Hang your Spin from a wall hook and let it speak for itself. Ornate woodwork isn't just for your butt! <a href="mailto:thekinkstersgrain@gmail.com?Subject=Paddles" target="_top">contact us</a> today to order a Spin that will help you sin.</p>
+          <img src={require('file!img/paddles_beat02_med.jpg')} style={txtImgStyles}/><h2 style={hStyles}>The Beat: </h2><i style={iStyles}>Thin, strong, and mighty.</i>
+          <p style={pStyles}>These paddles range from 11"-16" (with larger demands gladly met), and they bring a sharp, thin line of precious pain to your play thing. Want a bit more sting? Add some holes to The Beat and leave precise, circular evidence of their transgression. If you have a favorite wood, a favorite color, or anything else special in mind, <a href="mailto:thekinkstersgrain@gmail.com?Subject=Paddles" target="_top">contact us today</a> to get The Beat started!</p>
+          <img src={require('file!img/paddles_cleaver01_med.jpg')} style={txtImgStyles}/><h2 style={hStyles}>The Cleaver: </h2><i style={iStyles}>The thuddiest tool in the shed.</i>
+          <p style={pStyles}>Looking to leave a larger mark? Anticipating a nice, flat thud as your paddle connects? Try your hand at one of our specialized cleaver models. Each cleaver comes with a leather wrapped handle to ensure that no matter how high it gets turned up, you'll never lose a grip on your tool. The cleaver can be specialized by size, wood species, and hand wrap to meet your specifications. <a href="mailto:thekinkstersgrain@gmail.com?Subject=Paddles" target="_top">Contact us today</a> to begin work on your latest impact toy.</p>
+          <img src={require('file!img/paddles_spin01_med.jpg')} style={txtImgStyles}/><h2 style={hStyles}>The Spin: </h2><i style={iStyles}>Dangerous cause, dizzying effect.</i>
+          <p style={pStyles}>Like a spinning top sent through an industrial press, The Spin provides sharper lines and cleaner angles than other models. Like The Cleaver, The Spin can hide in plain site. In-Laws coming over? Hosting this month's book club? Hang The Spin from a hook and let them ponder your fine art. Then take it to the bedroom and let the fun start. <a href="mailto:thekinkstersgrain@gmail.com?Subject=Paddles" target="_top">Contact us today</a> to take it for The Spin.</p>
           <img src={require('file!img/paddles_racquet01_med.jpg')} style={txtImgStyles}/><h2 style={hStyles}>The Racquet: </h2><i style={iStyles}>Twenty-Love.</i>
-          <p style={pStyles}>Remember back to beating your bestie in the garage with a killer spin serve? Now you can beat your bestie with the handmade, hardwood Racquet line. Air holes allow for a devastatingly decisive delivery of whatever discipline you Doms deem de rigueur. <a href="mailto:thekinkstersgrain@gmail.com?Subject=Paddles" target="_top">contact us</a> today to help put a crack in your racquet.</p>
+          <p style={pStyles}>Remember back to beating your bestie in the garage with a killer spin serve? Now you can beat your bestie with the handmade, hardwood Racquet line. Air holes allow for a devastatingly decisive delivery of whatever discipline you Doms deem de rigueur (they also add a hell of a sting). <a href="mailto:thekinkstersgrain@gmail.com?Subject=Paddles" target="_top">Contact us today</a> to help put a crack in your racquet.</p>
         </div>
       </div>
     </div>
@@ -268,7 +268,7 @@ function About(props) {
       <div style={txtAreaStyles}>
         <div style={txtStyles}>
           <img src={require('file!img/profile_big.jpg')} style={imgStyles}/>
-          <p style={pStyles}>Meet Myles. He grew up in the Philadelphia and stayed in the area for college, swindling and haggling his way to a degree in Journalism from Temple University. After a year of being swaddled in suits and ties, he hit the road. 6 months living at a yoga center, another 6 goofing around San Francisco, 6 in Pittsburgh as a landscape sculptor, a handful in Vermont leading mad boys in the woods, and a smattering throwing cob buildings together in northern California. Now he has returned to build beautiful things.</p>
+          <p style={pStyles}>He grew up in the Philadelphia area and stayed for college, swindling and haggling his way to a degree in Journalism from Temple University. After a year of being swaddled in suits and ties, he hit the road. 6 months living at a yoga center, another 6 goofing around San Francisco, 6 in Pittsburgh as a landscape sculptor, a handful in Vermont leading mad boys in the woods, and a smattering throwing cob buildings together in northern California. Now he has returned to build beautiful things.</p>
           <p style={pStyles}>Myles’ background in political and labor organizing in no way impact the woodwork he produces, but are interesting footnotes. Other lines that appeared on his various resumes include:</p>
           <ul>
             <li style={pStyles}>PADI Certified Divemaster</li>
@@ -278,7 +278,7 @@ function About(props) {
             <li style={pStyles}>Amateur Meditator</li>
             <li style={pStyles}>Professional Transcriber</li>
           </ul>
-          <p style={pStyles}>Every project produced by The People’s Grain has been cultivated by Myles, hand crafted from beam to board.</p>
+          <p style={pStyles}>Every project produced by The Kinkster's Grain has been cultivated by Myles, hand crafted from beam to board.</p>
         </div>
       </div>
     </div>
@@ -324,7 +324,7 @@ function KinkAbout(props) {
       <div style={txtAreaStyles}>
         <div style={txtStyles}>
           <img src={require('file!img/profile_big.jpg')} style={imgStyles}/>
-          <p style={pStyles}>Meet Myles. He grew up in the Philadelphia and stayed in the area for college, swindling and haggling his way to a degree in Journalism from Temple University. After a year of being swaddled in suits and ties, he hit the road. 6 months living at a yoga center, another 6 goofing around San Francisco, 6 in Pittsburgh as a landscape sculptor, a handful in Vermont leading mad boys in the woods, and a smattering throwing cob buildings together in northern California. Now he has returned to build beautiful things.</p>
+          <p style={pStyles}>Meet Myles. He grew up in the Philadelphia area and stayed for college, swindling and haggling his way to a degree in Journalism from Temple University. After a year of being swaddled in suits and ties, he hit the road. 6 months living at a yoga center, another 6 goofing around San Francisco, 6 in Pittsburgh as a landscape sculptor, a handful in Vermont leading mad boys in the woods, and a smattering throwing cob buildings together in northern California. Now he has returned to build beautiful things.</p>
           <p style={pStyles}>Myles’ background in political and labor organizing in no way impact the woodwork he produces, but are interesting footnotes. Other lines that appeared on his various resumes include:</p>
           <ul>
             <li style={pStyles}>PADI Certified Divemaster</li>
@@ -334,7 +334,7 @@ function KinkAbout(props) {
             <li style={pStyles}>Amateur Meditator</li>
             <li style={pStyles}>Professional Transcriber</li>
           </ul>
-          <p style={pStyles}>Every project produced by The People’s Grain has been cultivated by Myles, hand crafted from beam to board.</p>
+          <p style={pStyles}>Every project produced by The People's Grain has been cultivated by Myles, hand crafted from beam to board.</p>
         </div>
       </div>
     </div>
